@@ -23,9 +23,8 @@ deploy:
       secure: $aws_secure_key
     bucket: "chao-test-codedeploy"
     key: latest.zip
-    application: 你的codedeploy-app
+    application: chao-codeDeploy-app
     deployment_group: master
     region: us-east-2
     on:
       branch: master
-
